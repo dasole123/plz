@@ -8,7 +8,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 public class PostingDto {
-    private String text;
+    private String title;
+    private String recipe_context;
     private String image;
-    private String face;
 }
